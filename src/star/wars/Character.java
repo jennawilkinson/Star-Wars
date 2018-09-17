@@ -94,7 +94,7 @@ public class Character {
         g.fillRect(x, y, size, size);
     }  
     public void kill() {
-        grow();
+        
     }
     public void move(int dx, int dy) {
         x += dx * 3;
